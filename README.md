@@ -1,13 +1,7 @@
-# Budget-Impact-Analyses-of-Enfortumab-Vendotin-in-Urothelian-Carcinoma
-Interactive Budget Impact Model (BIM) in Power BI for Padcev (enfortumab vedotin) in urothelial carcinoma. Estimates the 5-year impact on a Czech payer's budget using simulation of patient weight, what-if parameters, and a treatment carry-over coefficient between years.
-
-
 # Budget Impact Model – Padcev (enfortumab vedotin)
 ## Urothelial carcinoma | Czech payer perspective | 5-year horizon
 
-An interactive model of the budget impact on a health insurer when
-reimbursing Padcev. The project combines a Python-based patient population
-simulation with an interactive Power BI dashboard.
+An interactive model of the 5-year budget impact on a Czech payer's when reimbursing enfortumab vedotin. The project combines a Python-based patient population simulation with an interactive Power BI dashboard.
 
 [![Dashboard](example.png)](example.pdf)
 
@@ -15,8 +9,10 @@ simulation with an interactive Power BI dashboard.
 
 Estimate the 5-year impact on public health insurance spending from
 reimbursing enfortumab vedotin, with the ability to interactively change
-key assumptions (price, treatment-regimen mix, population size, treatment
-uptake).
+key assumptions:
+1. price (JUHR = Jádrová úhrada/core reimbursement is amount that the public health insurance system reimburses, SCAU 
+2. treatment-regimen mix
+3. population size per year.
 
 ## Key features
 
