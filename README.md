@@ -30,16 +30,7 @@ key assumptions:
 - **Treatment carry-over coefficient between years** – treatment started in
   a given year often extends into the next; the model splits the cost using
   the coefficient 1 − D/730 (D = median treatment duration in days).
-- **What-if parameters** – price per mg, regimen mix, population size
-  (scenarios 113 / 150 / 188 patients), and the uptake curve.
-
-## Data structure
-
-- **Patients** (simulation, 10,000 rows): weight, required dose, prepared
-  (rounded) dose, drug wastage.
-- **Years** (5 rows): year, number of eligible patients, uptake rate.
-- **Parameters**: price per mg, monotherapy/combination share, treatment
-  duration, number of administrations per course.
+- **What-if parameters** – price per mg, regimen mix, population size, and the uptake curve.
 
 ## Methodology
 
